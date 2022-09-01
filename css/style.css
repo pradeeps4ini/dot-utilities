@@ -1,0 +1,14 @@
+/*  visually hiding an element  */
+/* Using display: none, can hide the element from assistive technologies. Using this utility hide the element and make it accessible to assitive technologies as well. */
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
